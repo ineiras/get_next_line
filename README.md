@@ -3,5 +3,7 @@ The get_next_line function works by reading a buffer of a specified size from th
 Key Features:
 
 Static Variable: The function uses a static variable to store the remaining data between calls, ensuring that it can continue reading from where it left off.
+
 Buffer Size: The function reads data in chunks defined by a buffer size (BUFFER_SIZE). This can be adjusted to optimize performance based on the use case.
+
 Memory Management: The function dynamically allocates memory for each line and frees it when the line is no longer needed, preventing memory leaks.
